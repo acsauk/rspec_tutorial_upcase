@@ -1,5 +1,9 @@
 class Upcaser
   def self.make_caps(input)
-    "No words detected - please enter a word"
+    if input.empty?
+      "No words detected - please enter a word"
+    else
+      input.upcase
+    end
   end
 end
