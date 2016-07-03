@@ -1,3 +1,0 @@
-describe upcase do
-  
-end
